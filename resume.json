@@ -1,0 +1,112 @@
+{
+    "meta": {
+        "theme": "flat"
+    },
+    "basics": {
+        "name": "Rob Holt",
+        "label": "Software Engineer",
+        "email": "rjmholt@gmail.com",
+        "location": {
+            "city": "Seattle",
+            "countryCode": "US"
+        },
+        "profiles": [
+            {
+                "network": "GitHub",
+                "username": "rjmholt",
+                "url": "https://github.com/rjmholt"
+            },
+            {
+                "network": "Twitter",
+                "username": "rjmholt",
+                "url": "https://twitter.com/rjmholt"
+            },
+            {
+                "network": "LinkedIn",
+                "username": "rjmholt",
+                "url": "https://www.linkedin.com/in/rjmholt/"
+            }
+        ]
+    },
+    "work": [
+        {
+            "company": "Microsoft Corporation",
+            "position": "Software Engineer",
+            "pinned": true,
+            "summary": "Development and open-source maintenance of PowerShell, a cross-platform object-oriented shell and scripting language",
+            "website": "https://github.com/PowerShell/PowerShell",
+            "startDate": "2018-03-04",
+            "highlights": [
+                "Maintainer of PowerShell, the PowerShell extension for VSCode and PSScriptAnalyzer",
+                "Expertise in parsing/compilation, static analysis, the module system",
+                "Cross-platform low-level .NET Core and .NET Framework, node.js and TypeScript",
+                "Added the && and || operators to PowerShell",
+                "Author/presenter of blog posts, documentation, RFCs and conference talks",
+                "Implemented and maintained cross-platform build and release infrastructure in Azure Pipelines"
+            ]
+        },
+        {
+            "company": "Microsoft Corporation",
+            "website": "https://github.com/PowerShell/PowerShell",
+            "summary": "Implementation of experimental domain-specific language support",
+            "startDate": "2016-12-12",
+            "position": "Software Engineering Intern",
+            "highlights": [
+                "Implemented keyword-oriented domain-specific language support in PowerShell",
+                "Added features to a production recursive descent parser, with runtime syntax tree transformation",
+                "Implemented .NET metadata parsing following ECMA 335 using an undocumented library to read assemblies without loading them"
+            ]
+        },
+        {
+            "company": "Allume Energy",
+            "website": "https://allumeenergy.com.au/",
+            "position": "Software Engineering Intern",
+            "summary": "Full stack web development, IoT device integration and cloud deployment for Allume Energy, a solar energy startup",
+            "startDate": "2016-07-01",
+            "highlights": [
+                "Web application development in node.js",
+                "Deployment to AWS using Docker",
+                "Integration with undocumented REST APIs in embedded devices"
+            ]
+        }
+    ],
+    "education": [
+        {
+            "institution": "University of Melbourne",
+            "area": "Software Engineering",
+            "studyType": "Master",
+            "startDate": "2015-03-01",
+            "endDate": "2017-12-15"
+        },
+        {
+            "institution": "University of Melbourne",
+            "area": "Electrical Systems",
+            "studyType": "Bachelor",
+            "startDate": "2011-03-01",
+            "endDate": "2013-12-15"
+        }
+    ],
+    "skills": [
+        {
+            "name": ".NET",
+            "keywords": ["C#", ".NET Core", ".NET Framework", "PowerShell", "Native Interop"]
+        }
+    ],
+    "publications": [
+        {
+            "name": "Resolve PowerShell Module Assembly Dependency Conflicts",
+            "url": "https://devblogs.microsoft.com/powershell/resolving-powershell-module-assembly-dependency-conflicts/",
+            "summary": "Blog post explaining how to deal with dependency assembly conflicts in PowerShell"
+        },
+        {
+            "name": "PowerShell Modules: From Manifest to Memory",
+            "url": "https://www.youtube.com/watch?v=jWXe-xnpLsI",
+            "summary": "Talk at PSConfEU on how the PowerShell module system works"
+        },
+        {
+            "name": "Understanding file encoding in VSCode and PowerShell",
+            "url": "https://docs.microsoft.com/powershell/scripting/dev-cross-plat/vscode/understanding-file-encoding",
+            "summary": "Reference documentation on file encoding when used with PowerShell and VSCode"
+        }
+    ]
+}
