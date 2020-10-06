@@ -6,6 +6,7 @@
         "name": "Rob Holt",
         "label": "Software Engineer",
         "email": "rjmholt@gmail.com",
+        "summary": "Passionate about robustness and performance, curious about what's under the hood.",
         "location": {
             "city": "Seattle",
             "countryCode": "US"
@@ -50,7 +51,7 @@
             "website": "https://github.com/PowerShell/PowerShell",
             "summary": "Implementation of experimental domain-specific language support",
             "startDate": "2016-12-12",
-            "endDate": "2017-03-03"
+            "endDate": "2017-03-03",
             "position": "Software Engineering Intern",
             "highlights": [
                 "Implemented keyword-oriented domain-specific language support in PowerShell",
@@ -63,7 +64,7 @@
             "position": "Software Engineering Intern",
             "summary": "Full stack web development, IoT device integration and cloud deployment for Allume Energy, a solar energy startup",
             "startDate": "2016-07-01",
-            "endDate": "2017-06-30"
+            "endDate": "2017-06-30",
             "highlights": [
                 "Web application development in node.js",
                 "Deployment to AWS using Docker",
