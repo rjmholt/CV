@@ -53,8 +53,7 @@
             "position": "Software Engineering Intern",
             "highlights": [
                 "Implemented keyword-oriented domain-specific language support in PowerShell",
-                "Added features to a production recursive descent parser, with runtime syntax tree transformation",
-                "Implemented .NET metadata parsing following ECMA 335 using an undocumented library to read assemblies without loading them"
+                ".NET metadata parsing following ECMA 335 using an undocumented library to read assemblies without loading them"
             ]
         },
         {
@@ -84,29 +83,6 @@
             "studyType": "Bachelor",
             "startDate": "2011-03-01",
             "endDate": "2013-12-15"
-        }
-    ],
-    "skills": [
-        {
-            "name": ".NET",
-            "keywords": ["C#", ".NET Core", ".NET Framework", "PowerShell", "Native Interop"]
-        }
-    ],
-    "publications": [
-        {
-            "name": "Resolve PowerShell Module Assembly Dependency Conflicts",
-            "url": "https://devblogs.microsoft.com/powershell/resolving-powershell-module-assembly-dependency-conflicts/",
-            "summary": "Blog post explaining how to deal with dependency assembly conflicts in PowerShell"
-        },
-        {
-            "name": "PowerShell Modules: From Manifest to Memory",
-            "url": "https://www.youtube.com/watch?v=jWXe-xnpLsI",
-            "summary": "Talk at PSConfEU on how the PowerShell module system works"
-        },
-        {
-            "name": "Understanding file encoding in VSCode and PowerShell",
-            "url": "https://docs.microsoft.com/powershell/scripting/dev-cross-plat/vscode/understanding-file-encoding",
-            "summary": "Reference documentation on file encoding when used with PowerShell and VSCode"
         }
     ]
 }
