@@ -6,7 +6,7 @@
         "name": "Rob Holt",
         "label": "Software Engineer",
         "email": "rjmholt@gmail.com",
-        "summary": "Software engineer and open-source maintainer. I like to build robust, systematic solutions to problems."
+        "summary": "Software engineer and open-source maintainer. I like to build robust, systematic solutions to problems.",
         "location": {
             "city": "Seattle",
             "countryCode": "US"
