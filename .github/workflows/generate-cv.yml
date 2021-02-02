@@ -1,0 +1,27 @@
+name: Generate CV Files
+
+on:
+  push:
+    branch: [ $default-branch ]
+  pull_request:
+    branches: [ $default-branch ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v1
+        with:
+          node-version: 12.x
+      - run: npm install -g resume-cli
+      - run: resume export resume.pdf
+      - run: resume export resume.html
+      - uses: actions/upload-artifact@v2
+        with:
+          name: cv.pdf
+          path: resume.pdf
+      - uses: actions/upload-artifact@v2
+        with:
+          name: cv.html
+          path: resume.html
