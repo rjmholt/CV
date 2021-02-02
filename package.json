@@ -10,9 +10,6 @@
   "author": "Rob Holt",
   "license": "MIT",
   "dependencies": {
-    "jsonresume-theme-modern": "0.0.18",
-    "jsonresume-theme-onepage": "0.0.3",
-    "jsonresume-theme-paper": "^0.3.5",
     "resume-cli": "^3.0.4"
   }
 }
