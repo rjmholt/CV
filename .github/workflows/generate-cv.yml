@@ -15,12 +15,14 @@ jobs:
         with:
           node-version: 12.x
       - run: npm install --save-dev
-      - run: npm run generate
+      - run: npm run validate
+      - run: npm run generate cv.pdf
+      - run: npm run generate cv.html
       - uses: actions/upload-artifact@v2
         with:
           name: cv.pdf
-          path: resume.pdf
+          path: cv.pdf
       - uses: actions/upload-artifact@v2
         with:
           name: cv.html
-          path: resume.html
+          path: cv.html
