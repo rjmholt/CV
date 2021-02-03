@@ -26,6 +26,11 @@
                 "network": "LinkedIn",
                 "username": "rjmholt",
                 "url": "https://www.linkedin.com/in/rjmholt/"
+            },
+            {
+                "network": "Online CV",
+                "username": "link",
+                "url": "https://registry.jsonresume.org/rjmholt"
             }
         ]
     },
